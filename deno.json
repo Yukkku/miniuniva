@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "deno.window",
+      "dom",
+      "dom.iterator"
+    ]
+  },
+  "lint": {
+    "rules": {
+      "exclude": ["no-window-prefix", "no-window"]
+    }
+  }
+}
